@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/panama/LS_Venao_19_5df07ccf-19df-4d31-a185-8e965d62e6c2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.nav{
+    height: 12%;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 48px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color:#fff;
+    font-size: 100px;  
+}
+
+p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+b{
+    font-size: 13px;
+    color: #fff;
+}
+
+h5{
+    font-size: 18px;
+}
+
+
+button{
+    width: 180px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    padding: 12px 0;
+    background: sandybrown;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 27px;
+    margin-left: 10px;
+    font-family: Cambria bold, Cochin, Georgia, Times, 'Times New Roman', serif bold;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(https://www.panamaamerica.com.pa/sites/default/files/imagenes/2015/05/03/050315-pa-9-1-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(https://i.promecal.es/IMG/2012/9FA73F72-DECD-F205-BF48DB4283DB363C.JPG);
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(https://www.mgcshoppty.com/content/20221012103743-1.jpeg);
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
